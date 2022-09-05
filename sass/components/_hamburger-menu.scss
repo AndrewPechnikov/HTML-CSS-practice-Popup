@@ -1,5 +1,8 @@
 .hamburger-menu {
   position: relative;
+
+  & > a {
+  }
 }
 /* контейнер меню */
 .menu__box {
@@ -30,7 +33,7 @@
 
   font-size: 20px;
 }
-
+/* элементы меню */
 .menu__item > a {
   display: block;
   padding: 5px;
